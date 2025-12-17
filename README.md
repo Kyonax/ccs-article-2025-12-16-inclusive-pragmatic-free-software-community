@@ -9,8 +9,8 @@ CCS prioritizes software freedom, open access to knowledge, and the right to lea
 All documentation is free to use, modify, and share under the GNU Free Documentation License (GFDL-1.3-or-later).
 
 ## Article
-Read the English Version [An Inclusive Pragmatic Free Software Community](./2025-12-16-an-inclusive-pragmatic-free-software-community.en.pdf).
-Leer la Versión en Español [Una Comunidad de Software Libre Inclusiva y Pragmática](./2025-12-16-an-inclusive-pragmatic-free-software-community.en.pdf).
+- Read the English Version [An Inclusive Pragmatic Free Software Community](./2025-12-16-an-inclusive-pragmatic-free-software-community.en.pdf).
+- Leer la Versión en Español [Una Comunidad de Software Libre Inclusiva y Pragmática](./2025-12-16-an-inclusive-pragmatic-free-software-community.en.pdf).
 
 ## License
 See [LICENSE](./LICENSE) for details.
