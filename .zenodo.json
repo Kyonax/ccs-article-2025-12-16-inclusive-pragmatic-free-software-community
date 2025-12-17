@@ -1,0 +1,21 @@
+{
+  "title": "Cyber Code Syndicate (CCS) Article: An Inclusive and Pragmatic Free Software Community",
+  "upload_type": "publication",
+  "publication_type": "article",
+  "description": "Community proposals and articles advocating Free Software principles, open collaboration, and ethical development, by Cyber Code Syndicate (CCS). Openly licensed for learning and sharing.",
+  "creators": [
+    {
+      "name": "Cristian D. Moreno - Kyonax",
+      "affiliation": "Cyber Code Syndicate (CCS)"
+    }
+  ],
+  "license": "GFDL-1.3-or-later",
+  "keywords": [
+    "Free Software",
+    "Open Source",
+    "Ethical Development",
+    "Community",
+    "Documentation",
+    "Cyber Code Syndicate"
+  ]
+}

@@ -1,0 +1,144 @@
+#+TITLE: AN INCLUSIVE AND PRAGMATIC FREE SOFTWARE COMMUNITY
+#+SUBTITLE: Cyber Code Syndicate (CCS) Community Proposal
+#+AUTHOR: Cristian D. Moreno - Kyonax~\orcidlink{0009-0006-4459-5538}\affiliation{Senior Full-Stack Engineer}
+#+EMAIL: kyonax.corp@gmail.com
+#+DATE: Dec 16, 2025
+#+LANGUAGE: en
+#+KEYWORDS: docs, documentation, cyber code syndicate, free software, open source
+#+FILETAGS: :CCS:DOCS:
+#+PROJECT: Cyber Code Syndicate
+#+SOURCE_URL: https://github.com/ccs-devhub
+#+LAST_UPDATE: Dec 16, 2025
+#+LICENSE: GFDL-1.3-or-later
+#+OPTIONS: toc:nil num:nil H:5
+#+SETUPFILE: ~/.brain.d/latex/setup_latex.org
+#+VERSION: v0.1
+
+#+begin_quote
+Copyright (C) 2025 Cristian D. Moreno - Kyonax. Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with the Invariant Sections being "GNU Philosophy", with no Front-Cover Texts, and no Back-Cover Texts.
+#+end_quote
+
+#+begin_abstract
+Cyber Code Syndicate (CCS) is a community dedicated to advancing Free Software principles through collaboration, inclusivity, and open knowledge sharing. While respecting the foundational ideas promoted by the Free Software movement, CCS recognizes that strict dogmatic approaches can create unnecessary barriers and division. Instead, CCS embraces a pragmatic strategy, welcoming the integration of Free Software within diverse software ecosystems, including open source and proprietary models, to make software freedom accessible and relevant for all. Our goal is to empower individuals with the right to use, study, modify, and share code, fostering trust, autonomy, and ethical development across English and Spanish-speaking communities. By prioritizing inspiration over rigid ideology, CCS seeks to redefine software freedom for the modern era, building an environment where personal choice, transparency, and learning are valued and universally respected.
+#+end_abstract
+
+*** Definition of key terms
+  - *Free Software Foundation (FSF):* Non-profit organization dedicated to user freedom and software rights.
+  - *Free Software:* Software enabling use, study, modification, and sharing with minimal restriction.
+  - *Open Source:* Software with viewable source code, with a focus on collaborative development.
+  - *Proprietary Software:* Restricts user freedom through licensing.
+
+* Introduction
+The Free Software movement has played a significant role in shaping our understanding of software freedom, yet its approach can feel overly dogmatic and exclusionary. The central idea, that freedom should be preserved and enacted within software is powerful and necessary. However, the way the Free Software Foundation (FSF) promotes this vision often creates barriers to broader adoption and understanding.
+
+#+begin_quote
+Freedom should mean the ability to choose freely between Free Software, Open Source, or Proprietary solutions according to personal needs and preferences. Software freedom is not solely about the tools used, but also about respecting individual choice.
+#+end_quote
+
+The FSF's insistence on strict separation from proprietary platforms/software has, at times, isolated newcomers and complicated both outreach and comprehension. While I deeply respect the achievements and protections established by organizations like the FSF including the creation of impactful licenses, certain practices could be more adaptive for today’s interconnected world.
+
+Open communication channels, including the use of proprietary platforms, and supporting the integration of Free Software with proprietary solutions can help share the principles of software freedom with a broader audience. By allowing individuals to combine Free Software with the tools they already use, we respect personal choice and make the movement more accessible. Avoiding proprietary options for ideological reasons limits outreach and understanding, as people are less likely to encounter Free Software if the community does not participate where information is most readily available. Working together, regardless of the software paradigms in use, enables the message of software freedom to reach more people and encourages meaningful engagement.
+
+#+begin_quote
+We need a community that is open, inclusive, and pragmatic enough to recognize the diverse perspectives that exist within the software ecosystem. Valuing the ability to choose does not compromise the principles of software freedom... it enhances them.
+#+end_quote
+
+The goal is not division, but empowerment, to build trustworthy software that respects users, encourages autonomy, and does not exploit individuals for profit or control. The fight for software freedom must continue, but with a renewed, modern approach that invites collaboration instead of isolation.
+
+Rather than relying on a single organization or dogmatic approach, what is needed is a community of people who are ready to adapt, collaborate, and embrace a modern philosophy for spreading and advancing software freedom. This means building networks that value free choice, open communication, and the right to learn, modify, and share software. By focusing on inclusivity and practical engagement, such a community can foster trust and autonomy, helping new generations to understand and appreciate the core principles of Free Software without the barriers of exclusion or rigid ideology.
+
+The future of software freedom depends on people who are willing to communicate openly, share knowledge generously, and create environments where participants can contribute and learn freely. It is only by working together beyond dogma and division, that the core ideals of Free Software can remain meaningful and alive.
+
+* The necessity of an inclusive and pragmatic free software community
+
+#+begin_quote
+The evolution of software freedom depends on communities that go beyond rigid ideology. Instead of enforcing boundaries between Free Software, Open Source, and Proprietary paradigms, openness creates new opportunities for learning, collaboration, and real impact.
+#+end_quote
+
+Dogmatic approaches can isolate newcomers and discourage creative integration. Excluding Free Software from broader contexts limits its relevance and reach. In contrast, a pragmatic community accepts diverse software philosophies, enabling developers and users to discover the real value and principles behind Free Software in daily practice.
+
+#+begin_quote
+Practical inclusion empowers people to compare choices, understand differences, and experience the benefits of software that protects their freedom. We build trust not by dividing, but by showing with example, how Free Software can serve everyone’s needs without imposing restrictions.
+#+end_quote
+
+Permitting Free Software to coexist and interact with proprietary solutions does not dilute its core ideals. Instead, it highlights the distinction between systems that respect users and those that prioritize other interests. When users experience Free Software directly, even within proprietary workflows, they gain awareness and can make informed choices supporting the rights to learn, modify, and share.
+
+Encouraging participation by all, regardless of preferred software models, strengthens the ecosystem. By allowing companies and individuals to adapt, improve, and incorporate Free Software, the community becomes a living demonstration of autonomy and ethical development. Even if modifications exist, the foundational version remains always pointing toward greater freedom and empowerment.
+
+True progress in software freedom arises when communities welcome collaboration and prioritize the ability to choose rather than enforce separation. Openness fosters meaningful change by making freedom accessible, tangible, and achievable for all.
+
+* Defining attributes of an inclusive and pragmatic free software community
+
+#+begin_quote
+An inclusive and pragmatic Free Software community is characterized by its commitment to freedom, transparency, ethical development, and respect for individual choice, supporting practical collaboration and broad participation without enforcing dogma.
+#+end_quote
+
+Key attributes that define such a community include:
+
+- *Fundamental Software Freedoms:*
+  1. *Freedom to use:* Everyone is free to run software for any purpose, without restriction or discrimination.
+  2. *Freedom to study:* Source code is accessible, enabling anyone to examine, understand, and learn from the software’s logic and implementation.
+  3. *Freedom to modify:* Users and developers can improve, adapt, or transform the software to suit their needs.
+  4. *Freedom to share:* Any person or organization may distribute original or modified versions, facilitating collaboration and knowledge sharing.
+
+- *Respect for User Autonomy:* Participation ensures individuals retain control over software, with no imposed obstacles to learning, modification, or redistribution.
+
+- *Transparency:* Development processes and functionality remain clear and auditable, allowing independent verification and accountability.
+
+- *Data Ethics:* Software does not spy on users or collect excessive data. Data practices are open, requiring informed and explicit user consent.
+
+- *No Manipulative Design:* The focus is on solving real problems. Features intended primarily to increase engagement or retention through manipulation are avoided.
+
+- *Accessibility and Inclusion:* Access to resources, documentation, and development discussions is open, cultivating shared knowledge and lowering barriers for newcomers.
+
+- *Freedom of Integration and Choice:* Individuals or organizations may reuse or adapt Free Software within proprietary or any other paradigms, choosing for themselves whether to align with community ethical standards. Modification does not enforce continued adherence to Free Software principles, choice is always respected.
+
+- *Voluntary Adoption of Ethics:* The community provides clear examples of trustworthy and respectful practices, but does not obligate members or adopters to maintain these ideals when modifying or integrating software. The goal is to inspire, not constrain.
+
+#+begin_quote
+The defining attributes of an inclusive and pragmatic Free Software community are not limited by rigid boundaries. True freedom means people can learn, adapt, integrate, or depart from community standards according to their own values and needs, guided by clear rights, practical transparency, and a consistent emphasis on autonomy.
+#+end_quote
+
+* Community proposal
+
+#+begin_quote
+With the foundational attributes of a modern, inclusive and pragmatic Free Software community clearly defined, the next step is to embody these ideals in genuine practice. Cyber Code Syndicate (CCS) emerges as a community organized around these principles, committed to fostering ethical development, respect for autonomy, and collaboration across diverse perspectives.
+#+end_quote
+
+* CCS Community introduction
+
+#+begin_quote
+Cyber Code Syndicate (CCS) invites developers, learners, and creators from all backgrounds to join a community guided by these ethical standards. Our purpose is to cultivate an environment where software freedom, open knowledge, and individual choice are championed through real-world collaboration and transparent action.
+#+end_quote
+
+*Putting Principles into Practice*
+
+CCS is formed around the belief that the core freedoms, the rights to use, study, modify, and share software should be accessible and respected wherever technology is built or used. The community strives to:
+
+- Encourage the use and integration of Free Software in diverse environments, respecting the choices of members.
+- Maintain a strong focus on ethical development, where user autonomy and transparent data practices are upheld.
+- Provide opportunities for continuous learning, open participation, and shared growth.
+
+*An Inclusive Invitation*
+
+Everyone is welcome in CCS, whether you are a seasoned developer, a newcomer, or represent an organization. You may prefer Free Software, open source, or proprietary models, your experiences and perspectives are valued. What matters is a willingness to collaborate respectfully, promote user freedom, and learn together.
+
+CCS replaces rigid barriers with inspiration and practical support. Here, modification, adaptation, and even creation of new directions are encouraged, so long as they promote genuine understanding and autonomy.
+
+*A Foundation for Meaningful Change*
+
+Members work side by side to develop trustworthy software, prioritize ethical standards, and demonstrate the advantages of freedom through example. The goal is not to dictate, but to empower, helping each participant experience and appreciate the real impact of Free Software values in everyday use.
+
+#+begin_quote
+CCS is a living community rooted in transparency, ethical responsibility, and willingness to adapt. By turning ideals into practice, we hope not just to define, but to advance the evolution of software freedom for all.
+#+end_quote
+
+If you believe in collaboration, respect, and ethical progress, CCS invites you to shape the future of software together. Join us in building a community where freedom is realized, not just described.
+
+* Conclusion
+
+#+begin_quote
+The essence of Cyber Code Syndicate (CCS) lies in its commitment to practical software freedom, ethical development, and open collaboration. By respecting individual choice and supporting the integration of Free Software, CCS removes barriers to participation and makes software freedom accessible for all. This community prioritizes transparency, autonomy, and inclusive learning, fostering an environment where users and developers alike can share knowledge, contribute ideas, and build ethical software together. Instead of enforcing rigid boundaries, CCS inspires meaningful change by creating a space for real-world impact, ongoing growth, and collective empowerment.
+#+end_quote
+
+In summary, CCS represents a modern, pragmatic approach to Free Software advocacy. It encourages everyone to learn, adapt, and choose freely, advancing the principles of software freedom through openness and cooperation. The future of ethical development depends on communities like CCS, where freedom is realized through shared purpose and respectful collaboration.
