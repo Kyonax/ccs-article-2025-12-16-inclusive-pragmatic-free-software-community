@@ -1,0 +1,197 @@
+% Created 2025-12-17 Wed 03:34
+% Intended LaTeX compiler: pdflatex
+\documentclass[letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+% Use fontspec with XeLaTeX
+\usepackage{fontspec}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{natbib}
+\bibliographystyle{apalike}
+\definecolor{softblue}{HTML}{304966}
+\usepackage{orcidlink}
+\hypersetup{colorlinks=true, linkcolor=softblue, citecolor=softblue, urlcolor=softblue}
+\usepackage{minted}
+\setminted{
+fontsize=\footnotesize,
+breaklines=true,
+linenos=true,
+frame=single
+}
+\geometry{margin=1in}
+\input{~/.brain.d/latex/latex-macros.tex}
+\author{Cristian D. Moreno - Kyonax\textasciitilde{}\orcidlink{0009-0006-4459-5538}\affiliation{Senior Full-Stack Engineer}}
+\date{Dec 16, 2025}
+\title{UNA COMUNIDAD DE SOFTWARE LIBRE INCLUSIVA Y PRAGMÁTICA\\\medskip
+\large Propuesta Comunitaria de Cyber Code Syndicate (CCS)}
+\hypersetup{
+ pdfauthor={Cristian D. Moreno - Kyonax\textasciitilde{}\orcidlink{0009-0006-4459-5538}\affiliation{Senior Full-Stack Engineer}},
+ pdftitle={UNA COMUNIDAD DE SOFTWARE LIBRE INCLUSIVA Y PRAGMÁTICA},
+ pdfkeywords={docs, documentación, cyber code syndicate, software libre, código abierto},
+ pdfsubject={},
+ pdfcreator={Emacs 30.2 (Org mode 9.7.34)},
+ pdflang={English},
+ colorlinks=true,
+ linkcolor={cyan}
+}\usepackage{biblatex}
+
+\begin{document}
+
+\maketitle
+\begin{quote}
+Copyright (C) 2025 Cristian D. Moreno - Kyonax. Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with the Invariant Sections being ``GNU Philosophy'', with no Front-Cover Texts, and no Back-Cover Texts.
+\end{quote}
+
+\begin{abstract}
+Cyber Code Syndicate (CCS) es una comunidad dedicada a promover los principios del Software Libre mediante la colaboración, la inclusión y el intercambio abierto de conocimiento. Si bien reconoce y respeta las ideas fundacionales del movimiento de Software Libre (Free Software), CCS entiende que los enfoques excesivamente dogmáticos pueden generar barreras innecesarias y divisiones. En lugar de eso, CCS adopta una postura pragmática, abierta a la integración del Software Libre dentro de ecosistemas diversos, incluyendo modelos de código abierto y software privativo, con el fin de hacer la libertad del software más accesible y relevante para todas las personas.
+
+Nuestro objetivo es empoderar a individuos y comunidades garantizando el derecho a usar, estudiar, modificar y compartir el código, fomentando la confianza, la autonomía y el desarrollo ético en comunidades tanto de habla inglesa como española. Al priorizar la inspiración sobre la ideología rígida, CCS busca redefinir la libertad del software para la era moderna, construyendo un entorno donde la elección personal, la transparencia y el aprendizaje sean valores centrales y respetados de forma universal.
+\end{abstract}
+\subsubsection*{Definición de términos clave}
+\label{sec:org264f65f}
+\begin{itemize}
+\item \textbf{Free Software Foundation (FSF):} Organización sin ánimo de lucro dedicada a la defensa de la libertad del usuario y los derechos sobre el software.
+\item \textbf{Software Libre:} Software que permite su uso, estudio, modificación y redistribución con mínimas restricciones.
+\item \textbf{Código Abierto (Open Source):} Software cuyo código fuente es accesible, con énfasis en el desarrollo colaborativo.
+\item \textbf{Software Privativo:} Software que restringe las libertades del usuario mediante licencias.
+\end{itemize}
+\section*{Introducción}
+\label{sec:org5ff548b}
+El movimiento de Software Libre ha sido fundamental para construir nuestra comprensión sobre la libertad en el software. Sin embargo, en algunos contextos, su enfoque puede percibirse como excesivamente dogmático o excluyente. La idea central que la libertad debe preservarse y ejercerse dentro del software es poderosa y necesaria. No obstante, la forma en que la Free Software Foundation (FSF) suele promover esta visión, en ocasiones, genera barreras para una adopción y comprensión más amplias.
+
+\begin{quote}
+La libertad debería significar la posibilidad de elegir libremente entre Software Libre, código abierto o soluciones privativas, según las necesidades y preferencias personales. La libertad del software no se trata únicamente de las herramientas que usamos, sino también del respeto a la elección individual.
+\end{quote}
+
+La insistencia de la FSF en una separación estricta frente a plataformas o software privativo ha terminado, en algunos casos, aislando a personas que se acercan por primera vez al movimiento y dificultando la divulgación de sus principios. Aunque reconozco profundamente los logros y protecciones impulsados por organizaciones como la FSF, incluida la creación de licencias fundamentales, ciertas prácticas podrían adaptarse mejor a la realidad de un mundo cada vez más interconectado.
+
+Mantener canales de comunicación abiertos, incluso mediante plataformas privativas, y apoyar la integración del Software Libre con soluciones existentes permite llevar el mensaje de la libertad del software a un público más amplio. Al permitir que las personas combinen Software Libre con las herramientas que ya utilizan, se respeta su autonomía y se facilita el acceso al movimiento. Evitar opciones privativas únicamente por razones ideológicas limita el alcance y la comprensión, ya que muchas personas simplemente no entrarán en contacto con el Software Libre si la comunidad no participa en los espacios donde hoy circula la información. Trabajar de manera conjunta, más allá del paradigma tecnológico utilizado, permite que el mensaje llegue a más personas y genere una participación significativa.
+
+\begin{quote}
+Necesitamos una comunidad abierta, inclusiva y lo suficientemente pragmática para reconocer la diversidad de perspectivas dentro del ecosistema del software. Valorar la capacidad de elegir no debilita los principios del Software Libre… los fortalece.
+\end{quote}
+
+El objetivo no es dividir, sino empoderar, construir software confiable que respete a las personas, promueva la autonomía y evite la explotación con fines de control o beneficio desmedido. La lucha por la libertad del software debe continuar, pero desde una perspectiva renovada, moderna y abierta a la colaboración.
+
+Más que depender de una sola organización o de posturas rígidas, se necesita una comunidad dispuesta a adaptarse, colaborar y abrazar una filosofía contemporánea para difundir y fortalecer la libertad del software. Esto implica construir redes que valoren la elección libre, la comunicación abierta y el derecho a aprender, modificar y compartir. Al priorizar la inclusión y la participación práctica, una comunidad así puede generar confianza y autonomía, permitiendo que nuevas generaciones comprendan y valoren los principios del Software Libre sin barreras ideológicas ni exclusiones innecesarias.
+
+El futuro de la libertad del software depende de personas dispuestas a comunicarse con apertura, compartir conocimiento de manera generosa y crear entornos donde se pueda contribuir y aprender libremente. Solo trabajando juntos, más allá del dogma y la división, los ideales fundamentales del Software Libre seguirán siendo relevantes y vivos.
+\section*{La necesidad de una comunidad de software libre inclusiva y pragmática}
+\label{sec:org14b8824}
+
+\begin{quote}
+La evolución de la libertad del software depende de comunidades que vayan más allá de la ideología rígida. En lugar de imponer fronteras entre Software Libre, código abierto y software privativo, la apertura genera nuevas oportunidades de aprendizaje, colaboración e impacto real.
+\end{quote}
+
+Los enfoques dogmáticos pueden aislar a quienes se acercan por primera vez y desincentivar la integración creativa. Excluir el Software Libre de contextos más amplios reduce su relevancia y alcance. En contraste, una comunidad pragmática acepta distintas filosofías de software, permitiendo que desarrolladores y usuarios descubran el valor real del Software Libre a través de la práctica cotidiana.
+
+\begin{quote}
+La inclusión práctica empodera a las personas para comparar opciones, entender diferencias y experimentar los beneficios de un software que protege su libertad. La confianza se construye mostrando con hechos, no dividiendo, cómo el Software Libre puede responder a las necesidades reales sin imponer restricciones.
+\end{quote}
+
+Permitir que el Software Libre conviva e interactúe con soluciones privativas no diluye sus principios. Por el contrario, resalta la diferencia entre sistemas que respetan a las personas y aquellos que priorizan otros intereses. Cuando los usuarios experimentan el Software Libre directamente, incluso dentro de flujos de trabajo privativos, adquieren conciencia y pueden tomar decisiones informadas que apoyen el derecho a aprender, modificar y compartir.
+
+Fomentar la participación sin importar el modelo de software preferido fortalece el ecosistema. Al permitir que empresas y personas adapten, mejoren e integren Software Libre, la comunidad se convierte en una demostración viva de autonomía y desarrollo ético. Aunque existan modificaciones o adaptaciones, la versión base siempre apunta hacia una mayor libertad y empoderamiento.
+
+El verdadero progreso en la libertad del software surge cuando las comunidades priorizan la colaboración y la capacidad de elegir, en lugar de imponer separación. La apertura hace que la libertad sea accesible, concreta y alcanzable para todas las personas.
+\section*{Atributos que definen una comunidad de software libre inclusiva y pragmática}
+\label{sec:org8a929a6}
+
+\begin{quote}
+Una comunidad de Software Libre inclusiva y pragmática se caracteriza por su compromiso con la libertad, la transparencia, el desarrollo ético y el respeto por la elección individual, promoviendo la colaboración práctica y la participación amplia sin dogmas.
+\end{quote}
+
+Entre los atributos clave se encuentran:
+
+\begin{itemize}
+\item \textbf{Libertades fundamentales del software:}
+\begin{enumerate}
+\item \textbf{Libertad de uso:} Cualquier persona puede ejecutar el software para cualquier propósito, sin restricciones ni discriminación.
+\item \textbf{Libertad de estudio:} El código fuente es accesible, permitiendo comprender y aprender de su lógica e implementación.
+\item \textbf{Libertad de modificación:} Usuarios y desarrolladores pueden adaptar o mejorar el software según sus necesidades.
+\item \textbf{Libertad de distribución:} Se permite compartir versiones originales o modificadas, fomentando la colaboración y el conocimiento colectivo.
+\end{enumerate}
+
+\item \textbf{Respeto por la autonomía del usuario:} La participación garantiza el control sobre el software, sin obstáculos impuestos al aprendizaje o la redistribución.
+
+\item \textbf{Transparencia:} Los procesos de desarrollo y el funcionamiento del software son claros, auditables y verificables.
+
+\item \textbf{Ética de los datos:} El software no espía ni recolecta datos de forma excesiva. Cualquier práctica relacionada con datos requiere consentimiento informado y explícito.
+
+\item \textbf{Ausencia de diseño manipulador:} Se prioriza resolver problemas reales, evitando mecanismos diseñados únicamente para retención o manipulación del usuario.
+
+\item \textbf{Accesibilidad e inclusión:} El acceso a recursos, documentación y discusiones es abierto, reduciendo barreras para nuevos participantes.
+
+\item \textbf{Libertad de integración y elección:} Personas y organizaciones pueden reutilizar o adaptar Software Libre dentro de modelos privativos u otros paradigmas, decidiendo de forma autónoma si desean alinearse con los estándares éticos de la comunidad.
+
+\item \textbf{Adopción voluntaria de principios éticos:} La comunidad inspira buenas prácticas, pero no obliga a mantenerlas tras modificar o integrar el software. El objetivo es motivar, no restringir.
+\end{itemize}
+
+\begin{quote}
+Los atributos que definen una comunidad de Software Libre inclusiva y pragmática no están limitados por fronteras rígidas. La verdadera libertad implica poder aprender, adaptar, integrar o apartarse de los estándares comunitarios según los propios valores y necesidades, guiados por derechos claros, transparencia práctica y un énfasis constante en la autonomía.
+\end{quote}
+\section*{Propuesta comunitaria}
+\label{sec:org19fb2e3}
+
+\begin{quote}
+Con los atributos fundamentales de una comunidad moderna, inclusiva y pragmática claramente definidos, el siguiente paso es llevar estos ideales a la práctica. Cyber Code Syndicate (CCS) surge como una comunidad organizada en torno a estos principios, comprometida con el desarrollo ético, el respeto por la autonomía y la colaboración entre perspectivas diversas.
+\end{quote}
+\section*{Introducción a la comunidad CCS}
+\label{sec:org09d4cca}
+
+\begin{quote}
+Cyber Code Syndicate (CCS) invita a desarrolladores, estudiantes y creadores de todos los orígenes a formar parte de una comunidad guiada por estos principios éticos. Nuestro propósito es construir un entorno donde la libertad del software, el conocimiento abierto y la elección individual se promuevan mediante colaboración real y acciones transparentes.
+\end{quote}
+
+\textbf{Llevando los principios a la práctica}
+
+CCS se basa en la convicción de que las libertades fundamentales usar, estudiar, modificar y compartir software deben respetarse allí donde se construye o utiliza tecnología. La comunidad busca:
+
+\begin{itemize}
+\item Fomentar el uso e integración del Software Libre en distintos entornos, respetando las decisiones individuales.
+\item Mantener un enfoque sólido en el desarrollo ético, priorizando la autonomía del usuario y la transparencia en el manejo de datos.
+\item Crear espacios de aprendizaje continuo, participación abierta y crecimiento colectivo.
+\end{itemize}
+
+\textbf{Una invitación inclusiva}
+
+Todas las personas son bienvenidas en CCS: desarrolladores con experiencia, quienes están empezando o representantes de organizaciones. Ya sea que prefieras Software Libre, código abierto o modelos privativos, tus experiencias y puntos de vista son valiosos. Lo importante es la disposición a colaborar con respeto, promover la libertad del usuario y aprender en comunidad.
+
+CCS reemplaza barreras rígidas por inspiración y apoyo práctico. Aquí se fomenta la modificación, la adaptación y la creación de nuevos caminos, siempre que promuevan comprensión real y autonomía.
+
+\textbf{Una base para un cambio significativo}
+
+Las personas que integran la comunidad trabajan juntas para desarrollar software confiable, priorizar estándares éticos y demostrar, con hechos, los beneficios de la libertad. El objetivo no es imponer, sino empoderar, permitiendo que cada participante experimente el impacto real de los valores del Software Libre en su día a día.
+
+\begin{quote}
+CCS es una comunidad viva, basada en la transparencia, la responsabilidad ética y la capacidad de adaptación. Al convertir los ideales en práctica, buscamos no solo definir, sino impulsar la evolución de la libertad del software para todas las personas.
+\end{quote}
+
+Si crees en la colaboración, el respeto y el progreso ético, CCS te invita a construir el futuro del software junto a nosotros. Sumémonos para crear una comunidad donde la libertad no solo se describe, sino que se vive.
+\section*{Conclusión}
+\label{sec:orgd097b7d}
+
+\begin{quote}
+La esencia de Cyber Code Syndicate (CCS) está en su compromiso con una libertad del software práctica, el desarrollo ético y la colaboración abierta. Al respetar la elección individual y apoyar la integración del Software Libre, CCS elimina barreras de participación y hace que la libertad del software sea accesible para todas las personas. Esta comunidad prioriza la transparencia, la autonomía y el aprendizaje inclusivo, creando un entorno donde usuarios y desarrolladores pueden compartir conocimiento, aportar ideas y construir software ético de manera conjunta. En lugar de imponer límites rígidos, CCS inspira un cambio real mediante impacto práctico, crecimiento continuo y empoderamiento colectivo.
+\end{quote}
+
+En resumen, CCS representa una aproximación moderna y pragmática a la promoción del Software Libre. Invita a todas las personas a aprender, adaptarse y elegir libremente, impulsando los principios de la libertad del software a través de la apertura y la cooperación. El futuro del desarrollo ético depende de comunidades como CCS, donde la libertad se construye con propósito compartido y colaboración respetuosa.
+\end{document}
