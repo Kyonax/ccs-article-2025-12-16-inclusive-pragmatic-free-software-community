@@ -1,8 +1,8 @@
 {
-  "title": "Fostering an Inclusive, Pragmatic, and Ethical Free Software Community: The CCS Approach",
+  "title": "Cyber Code Syndicate (CCS): Building an Ethical and Inclusive Coding Community / Construyendo una Comunidad de Programación Ética e Inclusiva",
   "upload_type": "publication",
   "publication_type": "article",
-  "description": "This article presents the Cyber Code Syndicate (CCS) vision and principles for creating a sustainable, inclusive, and pragmatic free software community. It articulates core values of ethical development, respect for user autonomy, diversity, and transparent collaboration—contrasting with narrower or dogmatic interpretations of the Free Software movement. By defining practical guidelines and a community-driven ethos, the work seeks to foster openness, accessibility, and professional rigor in software development and knowledge sharing.",
+  "description": "This article presents the foundational vision and principles of the Cyber Code Syndicate (CCS) community. CCS advocates for practical, ethical, and inclusive software development, grounded in the philosophies of Free Software and Open Source, but prioritizing human autonomy, transparency, and accessibility above ideological rigidity. The article discusses the limitations of strict adherence to traditional models and proposes a pragmatic approach that empowers all—especially Spanish-speaking developers—to learn, collaborate, and build responsible software that benefits society. The full text is available in both English and Spanish, promoting bilingual access and bridging gaps in global developer education.",
   "creators": [
     {
       "name": "Cristian D. Moreno (Kyonax)",
@@ -12,14 +12,23 @@
   "license": "GFDL-1.3-or-later",
   "keywords": [
     "Free Software",
+    "Open Source",
     "Ethical Software",
+    "Software Community",
     "Inclusion",
-    "Diversity",
-    "Pragmatism",
-    "Community Principles",
+    "Spanish Developers",
+    "Education",
+    "Transparency",
     "User Autonomy",
-    "Open Collaboration",
-    "Software Ethics",
+    "Responsible Development",
     "Cyber Code Syndicate"
+  ],
+  "language": "en, es",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/ccs-devhub",
+      "relation": "isSupplementedBy",
+      "resource_type": "software"
+    }
   ]
 }
