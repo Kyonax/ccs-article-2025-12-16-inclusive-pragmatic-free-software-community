@@ -1,0 +1,119 @@
+#+TITLE: Construyendo una comunidad de programación ética e inclusiva
+#+SUBTITLE: La visión de Cyber Code Syndicate (CCS)
+#+AUTHOR: Cristian D. Moreno - Kyonax~\orcidlink{0009-0006-4459-5538}\affiliation{Senior Full-Stack Engineer}
+#+EMAIL: kyonax.corp@gmail.com
+#+DATE: Dec 19, 2025
+#+LANGUAGE: es
+#+KEYWORDS: software ético, educación, software libre, código abierto, comunidad, inclusión, desarrolladores, autonomía del usuario, transparencia, CCS, colaboración, accesibilidad, desarrollo responsable
+#+FILETAGS: :CCS:DOCS:
+#+PROJECT: Cyber Code Syndicate
+#+SOURCE_URL: https://github.com/ccs-devhub
+#+LAST_UPDATE: Dec 19, 2025
+#+LICENSE: GFDL-1.3-or-later
+#+OPTIONS: toc:nil num:nil H:5
+#+SETUPFILE: ~/.brain.d/latex/setup_latex.org
+#+VERSION: v1.3
+
+#+begin_quote
+Copyright (C) 2025 Cristian D. Moreno - Kyonax. Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with the Invariant Sections being "GNU Philosophy", with no Front-Cover Texts, and no Back-Cover Texts.
+#+end_quote
+
+#+begin_abstract
+/El software ético es un pilar fundamental de una sociedad digital sana y confiable./ Defiende los derechos y las necesidades de las personas usuarias al garantizar la libertad de usar, estudiar, modificar y compartir software, al tiempo que protege la autonomía, la privacidad y la transparencia. Organizaciones influyentes como la *Free Software Foundation (FSF)* y la *Mozilla Foundation* han establecido principios éticos fundamentales que orientan el desarrollo tecnológico responsable. Compartimos muchos de estos valores, en particular el enfoque *centrado en las personas* que promueve *Mozilla*. Sin embargo, sostenemos que la verdadera *libertad del software* implica empoderar tanto a usuarios como a desarrolladores para que puedan elegir cómo implementar y distribuir software ético, ya sea mediante modelos *libres*, de *código abierto* o *propietarios*. Nuestra comunidad no impone una ideología rígida ni restringe la participación en función del licenciamiento. En su lugar, buscamos inspirar a través del ejemplo y confiar en que cada persona tome sus propias decisiones éticas.
+
+*Cyber Code Syndicate (CCS)* es una comunidad colaborativa dedicada a la enseñanza del desarrollo de software y a la promoción de prácticas éticas. /Nuestra misión principal es ayudar a las personas a aprender a programar, comprender la importancia del software ético y empoderar a todas las personas (especialmente a desarrolladores hispanohablantes) mediante recursos prácticos, eventos educativos, documentación y espacios de diálogo abierto./ CCS no es un movimiento ni una organización guiada por la política, sino una comunidad de programadores y aprendices que se apoyan mutuamente, construyen software útil y ético, y comparten el conocimiento de forma abierta. *CCS* da la bienvenida a todas las personas que valoran el aprendizaje, la colaboración y la creación de software que beneficie a la sociedad respetando la autonomía y la libertad de elección individual. /Nuestro enfoque es fortalecer a la comunidad de desarrolladores de origen hispano, ofreciendo acceso amplio a la educación y fomentando la adopción de principios de software ético en todos los niveles de experiencia./
+#+end_abstract
+
+*** Definición de términos clave
+  - /Software:/ Programas o herramientas digitales que realizan tareas específicas en computadoras o dispositivos electrónicos.
+  - /Software ético:/ Software diseñado para respetar la privacidad, la autonomía y el bienestar de las personas usuarias. Prioriza la transparencia, la seguridad y el uso responsable.
+  - /Free Software Foundation (FSF):/ Organización sin ánimo de lucro dedicada a defender las libertades de los usuarios y a promover derechos relacionados con el uso, la modificación y la distribución del software.
+  - /Mozilla Foundation:/ Organización sin ánimo de lucro enfocada en promover tecnología de código abierto, la salud de Internet, la transparencia y software centrado en las personas.
+  - /Software libre:/ Software que ofrece la libertad de usar, estudiar, modificar y compartir sin restricciones, apoyando la autonomía y el aprendizaje.
+  - /Software de código abierto:/ Software cuyo código fuente está disponible públicamente para ver, colaborar, mejorar y participar.
+  - /Software propietario:/ Software que restringe las libertades de los usuarios limitando el acceso al código fuente y controlando el uso, la modificación y la distribución mediante licencias.
+  - /Código fuente:/ Instrucciones legibles por personas que constituyen un programa. El acceso al código fuente permite aprender, auditar y modificar el software.
+  - /Licencia:/ Reglas legales que definen cómo se puede usar, compartir y cambiar el software. Ejemplos incluyen la GPL (Software Libre) y la licencia MIT (Código Abierto).
+  - /Autonomía del usuario:/ Principio según el cual las personas deben tener control total sobre el software que usan, pudiendo adaptarlo, rechazarlo o configurarlo según sus necesidades.
+  - /Transparencia:/ Acceso claro y abierto a cómo funciona el software, sin código oculto ni comportamiento malicioso, y con documentación comprensible.
+  - /Privacidad:/ Garantizar que los datos de las personas usuarias estén protegidos, se recolecten mínimamente y se gestionen con consentimiento informado.
+  - /Accesibilidad:/ Asegurar que todas las personas, independientemente de su contexto o capacidad, puedan usar y beneficiarse de las herramientas de software.
+  - /Comunidad:/ Grupo de personas que aprenden, comparten, colaboran y se apoyan mutuamente. En CCS nos enfocamos en la educación, el desarrollo ético y el apoyo, especialmente para desarrolladores hispanohablantes.
+  - /Cyber Code Syndicate (CCS):/ Comunidad colaborativa que enseña desarrollo de software y promueve prácticas éticas centradas en las personas, empoderando especialmente a desarrolladores hispanohablantes mediante aprendizaje abierto, colaboración y libertad de elección.
+
+* Introducción
+/El progreso tecnológico debe servir a la humanidad, no controlarla./ Los derechos fundamentales para controlar, modificar y compartir software han sido moldeados por organizaciones como la *Free Software Foundation (FSF)* y la *Mozilla Foundation*. Estos grupos defienden la *autonomía del usuario*, la *transparencia*, la *privacidad* y el *acceso abierto* como pilares de una sociedad digital confiable.
+
+Mientras la *Free Software Foundation (FSF)* defiende con firmeza las libertades del software mediante marcos de licenciamiento como el *copyleft*, diseñados para garantizar que el software y sus derivados se mantengan libres y accesibles, estos mismos mecanismos a veces pueden introducir fricciones prácticas. Para desarrolladores y organizaciones que operan en entornos *propietarios* o de *código mixto*, integrar ese software puede implicar restricciones legales o estructurales que complican la adopción gradual, la experimentación o el uso parcial. Con el tiempo, esta rigidez puede moldear percepciones y desalentar la participación, no por oposición a principios éticos, sino por preocupaciones sobre la flexibilidad y la integración, haciendo que el *software que respeta la libertad* parezca menos accesible para quienes lo encuentran por primera vez.
+
+La *Mozilla Foundation* adopta un /enfoque más centrado en las personas/, enfatizando la *transparencia*, la *privacidad* y la colaboración amplia sin exigir la adhesión estricta a los ideales del Software Libre. Aun así, ambas organizaciones han concentrado sus recursos y comunidades mayoritariamente en *audiencias de habla inglesa*, dejando a *desarrolladores hispanohablantes* con acceso limitado a documentación clave y a espacios de discusión ética relevantes.
+
+*Cyber Code Syndicate (CCS)* fue creado para cerrar estas brechas, con el objetivo de hacer accesibles tanto el conocimiento técnico como el desarrollo de software ético a cualquier persona, sin importar su origen o experiencia. *CCS* enseña desarrollo de software y prácticas responsables a través de contenidos educativos, discusiones abiertas, proyectos comunitarios de *Software Libre y de Código Abierto*, mentoría y eventos públicos. Nuestra iniciativa pone un énfasis particular en apoyar a *desarrolladores hispanohablantes* y a *desarrolladores de origen hispano*, aunque permanece abierta y acogedora para todas las personas. En lugar de imponer un único marco de licenciamiento o ideológico, *CCS* fomenta el aprendizaje, la colaboración y el liderazgo con el ejemplo, permitiendo a quienes contribuyen comprender el *ecosistema de Software Libre y Código Abierto*, explorar distintas aproximaciones al *desarrollo ético* y tomar decisiones informadas sobre cómo debe usarse, adaptarse o integrarse el software que ayudan a crear. Priorizando la *autonomía*, la *transparencia* y el *diseño centrado en las personas* en nuestros propios proyectos, *CCS* demuestra cómo el software puede servir a las personas, dejando la adopción y la dirección en manos de su comunidad.
+
+* Nuestros Principios
+*CCS* opera basándose en pautas éticas arraigadas en las filosofías de la *Free Software Foundation* y la *Mozilla Foundation*. Estas orientan nuestro enfoque para la enseñanza, el desarrollo y la colaboración, guiando un progreso tecnológico responsable e inclusivo.
+
+** Principios centrales
+*** *El software sirve a las personas*
+La tecnología /(incluida la inteligencia artificial)/ debe priorizar el bienestar humano. El software debe mejorar vidas, fomentar la creatividad y resolver problemas, *nunca manipular ni explotar a las personas usuarias*.
+
+*** *Libertad para usar el software*
+Todas las personas tienen derecho a ejecutar software para cualquier propósito, *sin discriminación por motivos individuales, grupales o de actividad*.
+
+*** *Libertad para estudiar el software*
+El acceso al código fuente es esencial para el aprendizaje y la confianza. Las personas usuarias deben poder entender cómo funciona el software, respaldadas por *documentación clara y explicaciones transparentes*.
+
+*** *Libertad para modificar el software*
+Desarrolladores y usuarios deben poder adaptar el software, *cambiar su comportamiento* y mejorarlo según su contexto y objetivos.
+
+*** *Libertad para compartir el software*
+*Compartir conocimiento fortalece las comunidades.* La redistribución de software original o modificado permite el aprendizaje, la colaboración y el progreso colectivo.
+
+*** *Autonomía del usuario*
+Las personas deben mantener *control total* sobre el software que usan. El software no debe imponer restricciones técnicas o legales que limiten la elección, coaccionen el comportamiento o impidan dejar de usarlo. *CCS rechaza prácticas de diseño adictivas y coercitivas que socavan la autonomía.*
+
+*** *Transparencia y auditabilidad*
+*El software ético debe ser susceptible de inspección.* La funcionalidad oculta o maliciosa contradice la confianza y la rendición de cuentas.
+
+*** *Oposición a la vigilancia*
+*CCS rechaza software diseñado para o que habilite el espionaje, la recolección explotativa de datos o la vigilancia sin control.*
+
+*** *Privacidad por defecto*
+El software ético *minimiza la recolección de datos*, requiere *consentimiento informado* y garantiza el *control del usuario* sobre sus datos personales.
+
+*** *Seguridad y confianza*
+*El software seguro es una responsabilidad ética.* Las y los desarrolladores deben proteger a las personas usuarias contra el abuso, la explotación y riesgos innecesarios.
+
+*** *Accesibilidad e inclusión*
+El software ético debe ser usable y comprensible en contextos económicos, técnicos y culturales diversos. *CCS prioriza el acceso a conocimientos y herramientas para todos los niveles de habilidad.*
+
+*** *Interoperabilidad*
+El software debe cooperar con otros sistemas y herramientas. Evitar el bloqueo tecnológico respalda la *libertad de elección* y la sostenibilidad.
+
+*** *Libertad de elección*
+Usuarios y contribuyentes deben ser libres de seleccionar sus herramientas, entornos y flujos de trabajo. *CCS desalienta ecosistemas cerrados y estándares obligatorios que limiten la experimentación o el aprendizaje.*
+
+*** *Desarrollo abierto como medio, no como dogma*
+*El Software Libre y el Código Abierto son instrumentos, no fines ideológicos.* El objetivo es un ecosistema digital saludable centrado en las personas.
+
+*** *Rechazo del diseño manipulador*
+*CCS no apoya patrones oscuros ni diseños explotativos.* El desarrollo ético respeta la dignidad, la agencia y la toma de decisiones informada.
+
+*** *Gobernanza responsable*
+*CCS es una comunidad abierta.* Las decisiones son transparentes, colaborativas y guiadas por la responsabilidad social.
+
+** La ética como guía, no como imposición
+*CCS fomenta software que siga estos principios, pero no los impone como restricciones rígidas* a contribuyentes o usuarios finales. Las personas y las organizaciones siguen siendo *libres de modificar, ampliar, redistribuir o integrar* proyectos de CCS según sus propios enfoques. Nuestro papel es *liderar con el ejemplo, ofreciendo orientación en lugar de exigir cumplimiento.*
+
+Esto se alinea con la *filosofía de Mozilla* de promover una ética centrada en las personas mediante la colaboración y el ejemplo positivo, en lugar de un dogma.
+
+* Conclusión
+*Cyber Code Syndicate (CCS)* es un espacio para *aprender*, *construir*, de *discusión abierta* y *crecimiento personal*, dedicado a producir *mejores desarrolladores*, *mejor software* y *mejores resultados sociales*. Nuestra misión se centra en ayudar a individuos, especialmente a *hispanohablantes* y a *comunidades de origen hispano* en *América Latina* y más allá, a *aprender a programar* y a apreciar la importancia del *software ético* en sus vidas.
+
+Ofrecemos *recursos educativos de alta calidad*, documentación exhaustiva y eventos comunitarios para todos los niveles de experiencia. Creemos que el progreso ocurre cuando el *conocimiento práctico*, *accesible* y *conocimiento relevante* se comparte ampliamente. Al cerrar las brechas lingüísticas y culturales que con frecuencia separan a *desarrolladores hispanohablantes* de los movimientos tecnológicos globales, *CCS* traduce y contextualiza información clave de organizaciones como *FSF*, *Mozilla*, *Apache* y *Linux*, asegurando la participación inclusiva.
+
+Nuestra comunidad está *abierta a todos los que valoran el aprendizaje, la colaboración y el desarrollo ético*, y anima a las y los miembros a *elegir sus propios caminos*. Al proporcionar *recursos* y fomentar el *acceso inclusivo*, *CCS* eleva a grupos desatendidos y promueve una sociedad digital basada en la responsabilidad, el respeto y el crecimiento colectivo.
+
+#+begin_quote
+*CCS* es un espacio para *aprender*, *construir*, *debatir* y *crecer juntos*, con un fuerte enfoque en *formar mejores desarrolladores*, *mejor software* y *mejores experiencias para todas las personas*.
+#+end_quote

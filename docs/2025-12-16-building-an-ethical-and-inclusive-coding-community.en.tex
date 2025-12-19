@@ -1,0 +1,165 @@
+% Created 2025-12-19 Fri 16:02
+% Intended LaTeX compiler: pdflatex
+\documentclass[letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+% Use fontspec with XeLaTeX
+\usepackage{fontspec}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{natbib}
+\bibliographystyle{apalike}
+\definecolor{softblue}{HTML}{304966}
+\usepackage{orcidlink}
+\hypersetup{colorlinks=true, linkcolor=softblue, citecolor=softblue, urlcolor=softblue}
+\usepackage{minted}
+\setminted{
+fontsize=\footnotesize,
+breaklines=true,
+linenos=true,
+frame=single
+}
+\geometry{margin=1in}
+\input{~/.brain.d/latex/latex-macros.tex}
+\author{Cristian D. Moreno - Kyonax\textasciitilde{}\orcidlink{0009-0006-4459-5538}\affiliation{Senior Full-Stack Engineer}}
+\date{Dec 16, 2025}
+\title{Building an Ethical and Inclusive Coding Community\\\medskip
+\large The Cyber Code Syndicate (CCS) Vision}
+\hypersetup{
+ pdfauthor={Cristian D. Moreno - Kyonax\textasciitilde{}\orcidlink{0009-0006-4459-5538}\affiliation{Senior Full-Stack Engineer}},
+ pdftitle={Building an Ethical and Inclusive Coding Community},
+ pdfkeywords={ethical software, education, free software, open source, community, inclusion, Spanish developers, user autonomy, transparency, CCS, collaboration, accessibility, responsible development},
+ pdfsubject={},
+ pdfcreator={Emacs 30.2 (Org mode 9.7.34)},
+ pdflang={English},
+ colorlinks=true,
+ linkcolor={cyan}
+}\usepackage{biblatex}
+
+\begin{document}
+
+\maketitle
+\begin{quote}
+Copyright (C) 2025 Cristian D. Moreno - Kyonax. Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with the Invariant Sections being ``GNU Philosophy'', with no Front-Cover Texts, and no Back-Cover Texts.
+\end{quote}
+
+\begin{abstract}
+\emph{Ethical software is foundational to a healthy and trustworthy digital society.} It upholds the rights and needs of users by ensuring the freedom to use, study, modify, and share software, while protecting autonomy, privacy, and transparency. Influential organizations such as the \textbf{Free Software Foundation (FSF)} and the \textbf{Mozilla Foundation} have established core ethical principles that guide responsible technology development. We embrace many of these values, particularly \textbf{Mozilla’s} human-centered approach. However, we maintain that true \textbf{software freedom} involves empowering users and developers to choose how to implement and distribute ethical software, whether through \textbf{free}, \textbf{open source}, or \textbf{proprietary} models. Our community does not impose strict ideology or restrict participation based on licensing. Instead, we aim to inspire through example and trust individuals in making their own ethical choices.
+
+\textbf{Cyber Code Syndicate (CCS)} is a collaborative community dedicated to teaching software development and promoting ethical practices. \emph{Our primary mission is to help people learn to code, understand the significance of ethical software, and empower everyone—especially Spanish-speaking developers—by providing practical resources, educational events, documentation, and opportunities for open dialogue.} CCS is not a movement or a politically driven organization, but rather a collective of programmers and learners supporting one another, building useful and ethical software, and sharing knowledge freely. \textbf{CCS} welcomes all who value learning, collaboration, and the creation of software that benefits society while respecting individual autonomy and choice. \emph{Our focus is to uplift the Hispanic developer community, offering inclusive access to education and encouraging the adoption of ethical software principles at every skill level.}
+\end{abstract}
+\subsubsection*{Definition of key terms}
+\label{sec:org4d42e0e}
+\begin{itemize}
+\item \emph{Software:} Programs or digital tools that perform specific tasks on computers or electronic devices.
+\item \emph{Ethical Software:} Software designed to respect user privacy, autonomy, and well-being. Prioritizes transparency, security, and responsible use.
+\item \emph{Free Software Foundation (FSF):} Non-profit organization dedicated to defending user freedoms and advocating for rights related to software use, modification, and sharing.
+\item \emph{Mozilla Foundation:} Non-profit organization focused on promoting open-source technology, internet health, transparency, and user-centered software.
+\item \emph{Free Software:} Software offering the freedom to use, study, modify, and share without restriction, supporting autonomy and learning.
+\item \emph{Open Source Software:} Software with source code openly available for viewing, collaboration, improvement, and public participation.
+\item \emph{Proprietary Software:} Software that restricts user freedoms by limiting access to source code and controlling use, modification, and distribution through licensing.
+\item \emph{Source Code:} Human-readable instructions that make up a program. Access to source code allows users to learn, audit, and modify software.
+\item \emph{License:} Legal rules that define how software can be used, shared, and changed. Examples include GPL (Free Software) and MIT License (Open Source).
+\item \emph{User Autonomy:} The principle that users should have full control over the software they use, able to adapt, reject, or configure it to their own needs.
+\item \emph{Transparency:} Clear and open access to how software works; no hidden or malicious code, and easily understandable documentation.
+\item \emph{Privacy:} Ensuring users’ data is protected, collected minimally, and managed with informed consent.
+\item \emph{Accessibility:} Guaranteeing that all people, regardless of background or ability, can use and benefit from software tools.
+\item \emph{Community:} A group of people who learn, share, collaborate, and help each other grow. In CCS, we focus on education, ethical development, and support, especially for Hispanic developers.
+\item \emph{Cyber Code Syndicate (CCS):} A collaborative community that teaches software development and promotes people-centered ethical practices, with a particular focus on empowering Spanish-speaking developers through open learning, collaboration, and freedom of choice.
+\end{itemize}
+\section*{Introduction}
+\label{sec:org1882698}
+\emph{Technological progress should serve humanity, not constrain it.} Fundamental rights to control, modify, and share software have been shaped by organizations such as the \textbf{Free Software Foundation (FSF)} and the \textbf{Mozilla Foundation}. These groups champion \textbf{user autonomy}, \textbf{transparency}, \textbf{privacy}, and \textbf{open access} as pillars of a trustworthy digital society.
+
+While the \textbf{Free Software Foundation (FSF)} strongly defends software freedoms through licensing frameworks such as \textbf{copyleft}, designed to ensure that software and its derivatives remain free and accessible, these same mechanisms can sometimes introduce practical friction. For developers and organizations operating within \textbf{proprietary} or \textbf{mixed-source} environments, integrating such software may involve legal or structural constraints that complicate gradual adoption, experimentation, or partial use. Over time, this rigidity can shape perceptions, discouraging participation not through opposition to ethical principles, but through concerns about flexibility and integration, ultimately making \textbf{freedom-respecting software} feel less approachable to those encountering it for the first time.
+
+In contrast, the \textbf{Mozilla Foundation} takes a more \emph{human-centered approach}, emphasizing \textbf{transparency}, \textbf{privacy}, and broad collaboration, without demanding strict adherence to Free Software ideals. Nonetheless, both organizations have concentrated their resources and communities primarily on \textbf{English-speaking audiences}, leaving \textbf{Spanish-speaking developers} with limited access to key documentation and ethical discourse.
+
+\textbf{Cyber Code Syndicate (CCS)} was created to bridge these gaps, aiming to make technical knowledge and ethical software development accessible to anyone, regardless of background or experience. \textbf{CCS} teaches software development and responsible practices via educational content, open discussions, Free and Open Source community projects, mentorship, and public events. Our initiative places particular emphasis on supporting \textbf{Spanish-speaking} and \textbf{Hispanic developers}, yet is open and welcoming to all. Rather than enforcing a single licensing or ideological framework, \textbf{CCS} encourages learning, collaboration, and leading by example, enabling contributors to understand the ecosystem, explore different approaches to ethical development, and make informed decisions about how the software they help create is used, adapted, or integrated. By prioritizing \textbf{autonomy}, \textbf{transparency}, and \textbf{human-centered design} in our projects, \textbf{CCS} demonstrates how software can serve people, leaving adoption and direction in the hands of its community.
+\section*{Our Principles}
+\label{sec:org784cddd}
+\textbf{CCS} operates based on ethical guidelines rooted in the philosophies of the \textbf{Free Software Foundation} and \textbf{Mozilla Foundation}. These inform our approach to teaching, development, and collaboration, guiding responsible and inclusive technological progress.
+\subsection*{Core Principles}
+\label{sec:org21ecf93}
+\subsubsection*{\textbf{Software serves people}}
+\label{sec:orgffece53}
+Technology \emph{(including artificial intelligence)} must prioritize human well-being. Software should improve lives, foster creativity, and solve problems, \textbf{never manipulate or exploit users}.
+\subsubsection*{\textbf{Freedom to use software}}
+\label{sec:org03a5041}
+Everyone has the right to run software for any purpose, \textbf{without discrimination against individuals, groups, or activities}.
+\subsubsection*{\textbf{Freedom to study software}}
+\label{sec:orgc8bdfa5}
+Access to source code is essential for learning and trust. Users should understand how software works, supported by \textbf{clear documentation and transparent explanations}.
+\subsubsection*{\textbf{Freedom to modify software}}
+\label{sec:org1f97518}
+Developers and users must be able to adapt software, \textbf{change its behavior}, and improve it for their context and goals.
+\subsubsection*{\textbf{Freedom to share software}}
+\label{sec:org430e76b}
+\textbf{Knowledge sharing strengthens communities.} Redistribution of original or modified software allows learning, collaboration, and collective progress.
+\subsubsection*{\textbf{User autonomy}}
+\label{sec:orga727b5c}
+Users must retain \textbf{full control} over the software they use. Software should not impose technical or legal restrictions that limit choice, coerce behavior, or prevent discontinuation. \textbf{CCS rejects addictive and coercive design practices that undermine autonomy.}
+\subsubsection*{\textbf{Transparency and auditability}}
+\label{sec:org7246efa}
+\textbf{Ethical software must be inspectable.} Hidden or malicious functionality contradicts trust and accountability.
+\subsubsection*{\textbf{Opposition to surveillance}}
+\label{sec:orgdd97a95}
+\textbf{CCS rejects software designed for or enabling spying, exploitative data collection, or unchecked monitoring.}
+\subsubsection*{\textbf{Privacy by default}}
+\label{sec:orgc7ae1b4}
+Ethical software \textbf{minimizes data collection}, requires \textbf{informed consent}, and ensures \textbf{user control} of personal data.
+\subsubsection*{\textbf{Security and trust}}
+\label{sec:org3e00761}
+\textbf{Secure software is an ethical responsibility.} Developers must protect users against abuse, exploitation, and unnecessary risk.
+\subsubsection*{\textbf{Accessibility and inclusion}}
+\label{sec:org3664900}
+Ethical software should be usable and understandable across economic, technical, and cultural contexts. \textbf{CCS prioritizes knowledge access and tools for all skill levels.}
+\subsubsection*{\textbf{Interoperability}}
+\label{sec:org93af5fc}
+Software should cooperate with other systems. Avoiding technological lock-in supports \textbf{freedom of choice} and sustainability.
+\subsubsection*{\textbf{Freedom of choice}}
+\label{sec:orgc0e284e}
+Users and contributors must be free to select their tools, environments, and workflows. \textbf{CCS discourages closed ecosystems and mandatory standards that limit experimentation or learning.}
+\subsubsection*{\textbf{Open development as a means, not a dogma}}
+\label{sec:orge5a7066}
+\textbf{Free Software and Open Source are instruments, not ideological ends.} The goal is a healthy, people-centric digital ecosystem.
+\subsubsection*{\textbf{Rejection of manipulative design}}
+\label{sec:org0dd32e2}
+\textbf{CCS does not support dark patterns or exploitative designs.} Ethical development respects dignity, agency, and informed decision-making.
+\subsubsection*{\textbf{Responsible governance}}
+\label{sec:org74a9c7b}
+\textbf{CCS is an open community.} Decisions are transparent, collaborative, and guided by social responsibility.
+\subsection*{Ethics as guidance, not enforcement}
+\label{sec:org48d57d2}
+\textbf{CCS encourages software that follows these principles, but does not impose them as rigid constraints} on contributors or downstream users. Individuals and organizations remain \textbf{free to modify, extend, redistribute, or integrate} CCS projects using their own approaches. Our role is to \textbf{lead by example, offering guidance rather than enforcing compliance.}
+
+This aligns with \textbf{Mozilla’s philosophy} of promoting human-centered ethics via collaboration and positive example, rather than dogma.
+\section*{Conclusion}
+\label{sec:org9a32a9c}
+\textbf{Cyber Code Syndicate (CCS)} is a space for \textbf{learning}, \textbf{building}, \textbf{open discussion}, and \textbf{personal growth}, dedicated to producing \textbf{better developers}, \textbf{better software}, and \textbf{better societal outcomes}. Our mission centers on helping individuals especially those in \textbf{Spanish-speaking} and \textbf{Hispanic communities} in \textbf{Latin America} and beyond, \textbf{learn to code} and appreciate the importance of \textbf{ethical software} in their lives.
+
+We offer \textbf{high-quality educational resources}, comprehensive documentation, and community events for all experience levels. We believe progress happens where \textbf{practical}, \textbf{accessible}, and \textbf{relevant knowledge} is widely shared. By bridging linguistic and cultural divides that often separate \textbf{Spanish-speaking developers} from global technology movements, \textbf{CCS} translates and contextualizes key information from organizations like \textbf{FSF}, \textbf{Mozilla}, \textbf{Apache}, and \textbf{Linux}, ensuring inclusive participation.
+
+Our community is \textbf{open to everyone who values learning, collaboration, and ethical development}, encouraging members to \textbf{choose their own paths}. By providing \textbf{resources} and fostering \textbf{inclusive access}, \textbf{CCS} uplifts underserved groups and promotes a digital society grounded in responsibility, respect, and collective growth.
+
+\begin{quote}
+\textbf{CCS} is a place to \textbf{learn}, \textbf{build}, \textbf{discuss}, and \textbf{grow together}, with a strong focus on \textbf{building better developers}, \textbf{better software}, and \textbf{better experiences for all people}.
+\end{quote}
+\end{document}
