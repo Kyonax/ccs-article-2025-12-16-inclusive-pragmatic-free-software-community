@@ -1,1 +1,12 @@
-
+cff-version: 1.2.1
+message: "If you use this work, please cite it as below."
+title: "Cyber Code Syndicate (CCS): Building an Ethical and Inclusive Coding Community / Construyendo una Comunidad de Programación Ética e Inclusiva"
+version: "v1.2.1"
+doi: "10.5281/zenodo.17960802"
+date-released: "2025-12-19"
+authors:
+  - family-names: Moreno
+    given-names: Cristian D.
+    affiliation: "Cyber Code Syndicate (CCS)"
+type: "article"
+url: "https://github.com/Kyonax/ccs-article-2025-12-16-inclusive-pragmatic-free-software-community"
